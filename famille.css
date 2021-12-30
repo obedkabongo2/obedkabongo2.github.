@@ -1,0 +1,202 @@
+@charset "utf-8";
+	*{
+	margin: 0px;
+	padding: 0px;
+	
+		
+}
+html{
+	background: url("../images/mirage.jpg");
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+}
+body{
+	font: normal normal 17px/1.6 arial, "sans serif";
+}
+header{
+	white-space: wrap;
+	background:#222;
+}
+.obed_kabongo{
+	color: aliceblue;
+	text-transform: capitalize;
+}
+.obed{
+	color:#4169E1;
+	letter-spacing: 2px;
+}
+nav{
+	
+}
+.barre_menu{
+	display: block;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.alignement{
+	list-style-type: none;
+	display: inline;
+	padding-left: 0px;
+	letter-spacing: 2px;
+	margin-left: 15px;
+}
+.prop_el_a_menu{
+	text-decoration: none;
+	font: normal bold 15px/10px arial, "sans serif";
+	text-transform: capitalize;
+	color:whitesmoke;
+}
+.survol_navigation:hover{
+	color:#4169E1;
+}
+#accueil{
+	border-color:black ;
+	border-radius: 10px;
+	padding: 4px;
+	background:navy ;
+}
+main{
+display: flex;
+flex-direction: column;
+
+}
+#banniere_d_entree{
+	margin-top: 9%;
+	margin-bottom: 9%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.bienvenu{
+	font: normal bold 40px/60px arial, "Palatino Linotype", "Century Schoolbook L", "Baskerville", "sans-serif";
+	letter-spacing: 1px;
+	
+	
+}
+.prenez_plaisir{
+	font: normal bold 19px/6px Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	word-spacing: 5px;
+	padding:10px;
+}
+.mis_en_bienvenu{
+	color: #a52a2a;
+}
+#sous_la_banniere{
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	background: #A9A9A9;
+	
+}
+	
+.s_banniere_gauche {
+	padding: 10px;
+	padding-right: 10px;
+	float: left;
+	display: flex;
+	flex-direction: column;
+	flex-shrink: 25%;
+	text-align: center;
+	widows: 200px
+}
+.s_banniere_centre {
+	vertical-align: top;
+	padding: 10px;
+	align-items: center;
+	flex-shrink: 25%;
+}
+.explorez_deco {
+	text-align: center;
+	color: darkblue;
+	font: normal bold 23px/38px Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+.exploration_du_site{
+list-style-type: none;
+font: normal bold 16px/29px arial, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+text-align: center;
+border-color: red;
+border-radius: 20px;
+margin-bottom: 5px;
+line-height: 1.6;
+}
+.deco_hover:hover{
+	border-radius: 10px;
+	padding: 4px;
+	color: white;
+	background:#0000cd;
+	
+}
+.s_banniere_droite {
+	padding: 10px;
+	padding-right: 10px;
+	display: flex;
+	flex-shrink: 25%;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+}
+#img_de_droite {
+	border-radius: 100px;
+}
+#img_de_gauche {
+	border-radius: 100px;
+}
+.la_beaute{
+	font: italic bold 12px/20px sans serif;
+	opacity: 0.5;
+	word-spacing: 5px;
+	padding: 10px;
+}
+
+footer{
+	display: flex;
+	flex-direction: column;
+	text-align: justify;
+	background:#222;
+	color: beige;
+}
+.contact_pied{
+	width: 74%;
+	padding: 4px;
+	font:normal normal 18px/22px Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	margin-left: 15%;
+	
+}
+#adresse{
+	display: flex;
+	flex-direction: row;
+	padding-top: 4px;
+	padding-bottom: 5px;
+	
+}
+#numero{
+	display: flex;
+	flex-direction: row;
+	padding-bottom: 5px;
+}
+#message{
+	display: flex;
+	flex-direction: row;
+	color:navy;
+	padding-bottom: 5px;
+}
+#facebook{
+	display: flex;
+	flex-direction: row;
+	padding-bottom: 5px;
+}
+a{
+	text-decoration: none;
+	color:beige;
+}
+.copiright {
+	margin-left: 8px;
+	margin-top: 2px;
+}

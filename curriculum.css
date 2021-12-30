@@ -1,0 +1,317 @@
+@charset "utf-8";
+	*{
+	margin: 0px;
+	padding: 0px;
+	
+		
+}
+body{
+	font: normal normal 17px/1.6 arial, "sans serif";
+}
+header{
+	white-space: wrap;
+	background:#222;
+	position:fixed; 
+	width: 100%;
+	top:0px;
+	z-index: 9999;
+}
+.obed_kabongo{
+	color: aliceblue;
+	text-transform: capitalize;
+}
+.obed{
+	color:orangered;
+	letter-spacing: 2px;
+}
+.barre_menu{
+	display: block;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.alignement{
+	list-style-type: none;
+	display: inline;
+	padding-left: 0px;
+	letter-spacing: 2px;
+	margin-left: 15px;
+}
+.prop_el_a_menu{
+	text-decoration: none;
+	font: normal bold 15px/10px arial, "sans serif";
+	text-transform: capitalize;
+	color:whitesmoke;
+}
+.survol_navigation:hover{
+	color:#4169E1;
+}
+#accueil{
+	border-color:black ;
+	border-radius: 10px;
+	padding: 4px;
+	background:orangered ;
+}
+main{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	margin-top: 120px;
+    margin-right: 5%;
+    margin-bottom: 0px;
+    margin-left: 5%;
+}
+/*pour les lignes de decoration*/
+hr{
+	margin-right: 10%;
+	margin-left: 10%;
+	background: #4169E1;
+}
+/*identite c'est pour le nom que j'ai mis tout au dessus
+0bed kabogo et telechargez mon cv*/
+.identite{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 1%;
+	margin-top: 1%;
+}
+/*identite 2 c'est la division qui gere le contenu de presentation,inroduction_et_image*/
+
+/*-------SECTION 1 PORTRAIT, INTRO, ADRESSE----------*/
+.identite_2{
+	
+	display: flex ;
+}
+
+.introduction_et_image{
+	display: flex;
+}
+.contenu_text_intro,.mon_address{
+	font: normal normal 15px/15px  times new roman, "sans-serif";
+	padding: 5px;
+	text-align: left;
+	
+}
+/*j'ajoute ce media pour gerer le probleme avec inroduction_et_image*/
+@media screen and (max-width:741px){
+.identite_2{
+	display: flex;
+	flex-direction: column;
+}
+.presentation{
+		
+}
+.introduction_et_image{
+	display: flex;
+}
+.portrait{
+
+}
+.contenu_text_intro,.mon_address{
+	font: normal normal 15px/15px  times new roman, "sans-serif";
+	
+}
+}
+/*le deuxieme media c'est pour gerer le probleme de identite 2*/
+@media screen and (max-width:595px){
+.identite_2{
+	display: flex;
+	flex-direction: column;
+}
+.presentation{
+		
+}
+.introduction_et_image{
+	flex-direction: column;
+}
+.portrait{
+	align-self: center;
+}
+.contenu_text_intro,.mon_address{
+	font: normal normal 15px/15px  times new roman, "sans-serif";
+	
+}
+/*.......ce media concerne la section 2	*/
+	.etudes_et_competance{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.competences, .etudes_faites{
+	padding: 5px;
+}
+	.titre_etudes_faites{}
+.nom_date_secondaire, .universite{
+	display: flex;
+	
+	justify-content: space-around;
+}
+.ecole_secondaire,.unikin{
+
+}
+.annee_du_secondaire,.annee_universite{
+	
+}
+.titre_secondaire,.titre_universite{
+	
+	width: 50%
+}
+.progression{
+	background:#c0c0c0;
+	margin-bottom: 5px;
+	height: 7%;
+	border-radius:8px;
+}
+.niveau_progression{
+	font: normal normal 10px/10px Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	height: 100%;
+	text-align: center;
+	border-top-left-radius: 7px;
+	border-bottom-left-radius: 7px;
+	color:white;
+}
+}
+/*---------SECTION 2 ETUDES ET COMPETENCES-----------*/
+.etudes_et_competance{
+	display: flex;
+	justify-content: space-between;
+}
+.competences, .etudes_faites{
+	
+	padding: 5px;
+	width: 50%;
+}
+.titre_etudes_faites{
+	
+}
+.nom_date_secondaire, .universite{
+	display: flex;
+	
+	justify-content: space-around;
+}
+.ecole_secondaire,.unikin{
+	
+}
+.annee_du_secondaire,.annee_universite{
+	
+}
+.titre_secondaire,.titre_universite, .job{
+	border:2px solid;
+	border-radius: 10px;
+	width: 50%;
+	padding:4px;
+	background: #a9a9a9;
+}
+.progression{
+	background:#c0c0c0;
+	margin-bottom: 5px;
+	height: 7%;
+	border-radius:8px;
+}
+.niveau_progression{
+	font: normal normal 10px/10px Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	height: 100%;
+	text-align: center;
+	border-top-left-radius: 7px;
+	border-bottom-left-radius: 7px;
+	color:white;
+}
+/*.............zone experience professionnelle*/
+.experiences_professionnelles{
+	
+	display: flex;
+	justify-content: space-between;
+}
+.experience_1,.experience_2{
+	
+	width: 50%
+}
+.societe_annee,.societe_annee_2{
+	
+	display: flex;
+	justify-content: space-around;
+}
+.onatra,.securico{
+	
+}
+.job{
+	
+}
+.annee_exp1,.annee_exp2{
+	
+}
+@media (max-width: 555px){
+	.experiences_professionnelles{
+	
+	display: flex;
+	flex-direction:column; 
+	justify-content: space-between;
+}
+	.experience_1,.experience_2{
+	
+	width: 100%
+}
+	.competences, .etudes_faites{
+	
+	padding: 5px;
+	width: 100%;
+}
+}
+.alignement_dimages{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+/*-------------VIENT LE FOOTER------------*/
+footer{
+	display: flex;
+	flex-direction: column;
+	text-align: justify;
+	background:#222;
+	color: beige;
+}
+.contact_pied{
+	padding: 4px;
+	text-align: center;
+	align-items: center;
+	font:normal normal 18px/22px Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	
+}
+#adresse{
+	display: inline;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	margin-left: 3%;
+	
+}
+#numero{
+	display: inline;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	margin-left: 3%;
+}
+#message{
+	display: inline;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	margin-left: 3%;
+}
+#facebook{
+	display: inline;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	margin-left: 3%;}
+a{
+	text-decoration: none;
+	color:beige;
+}
+.copiright {
+	margin-left: 8px;
+	margin-top: 2px;
+}

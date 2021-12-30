@@ -1,0 +1,149 @@
+@charset "utf-8";
+	*{
+	margin: 0px;
+	padding: 0px;
+	
+		
+}
+body{
+	font: normal normal 17px/1.6 arial, "sans serif";
+}
+header{
+	white-space: wrap;
+	background:#222;
+	position:fixed; 
+	width: 100%;
+	top:0px;
+	z-index: 9999;
+}
+.obed_kabongo{
+	color: aliceblue;
+	text-transform: capitalize;
+}
+.obed{
+	color:orangered;
+	letter-spacing: 2px;
+}
+
+.barre_menu{
+	display: block;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.alignement{
+	list-style-type: none;
+	display: inline;
+	padding-left: 0px;
+	letter-spacing: 2px;
+	margin-left: 15px;
+}
+.prop_el_a_menu{
+	text-decoration: none;
+	font: normal bold 15px/10px arial, "sans serif";
+	text-transform: capitalize;
+	color:whitesmoke;
+}
+.survol_navigation:hover{
+	color:#4169E1;
+}
+#accueil{
+	border-color:black ;
+	border-radius: 10px;
+	padding: 4px;
+	background:orangered ;
+}
+main{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	margin-top: 120px;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+	padding: 5%;
+}
+.infos{
+	border: 2px solid;
+	margin-bottom: 5%;
+	background: teal;
+}
+.titre{
+	text-align: center;
+	border: 2px solid;
+	color: orangered;
+	background: #222; 
+	padding: 2%;
+}
+.infos_adresse, .info_email, .info_contact{
+	font: normal normal 17px/20px Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color: antiquewhite;
+}
+li{
+	list-style-type: none;
+	padding: 2%
+}
+.position_google{
+	color: orangered;
+}
+.carte_google, iframe{
+	border: 2px solid;
+	height: 80vh;
+	width: 100%;
+	justify-content: center;
+	justify-items: center;
+	color: orangered;
+}
+
+/*-------------PARTIE DU FOOTER--------*/
+footer{
+	display: flex;
+	flex-direction: column;
+	text-align: justify;
+	background:#222;
+	color: beige;
+}
+.contact_pied{
+	padding: 4px;
+	text-align: center;
+	align-items: center;
+	font:normal normal 18px/22px Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	
+}
+#adresse{
+	display: inline;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	margin-left: 3%;
+}
+#numero{
+	display: inline;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	margin-left: 3%;
+}
+#message{
+	display: inline;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	margin-left: 3%;
+}
+#facebook{
+	display: inline;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	margin-left: 3%;
+}
+a{
+	text-decoration: none;
+	color:beige;
+}
+.copiright {
+	margin-left: 8px;
+	margin-top: 2px;
+}
